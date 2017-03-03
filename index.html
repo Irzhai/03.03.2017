@@ -7,20 +7,20 @@
   <body>
     <script type="text/javascript">
   function fesil(type){
-    if(type == 12 || type == 1 || type == 2){
-     return('qis')
+    if('qis'){
+     return['12,1,2'];
     }
-    else if(type>=3 && type<=5){
-     return('yaz')
+    else if('yaz'){
+     return['3,4,5']
     }
-    else if(type>=6 && type<=8){
-      return('yay')
+    else if('yay'){
+      return['6,7,8']
     }
-    else if(type>=9 && type<=11){
-      return('payiz')
+    else if('payiz'){
+      return['9,10,11']
     }
   }
-  var c = fesil(3);
+  var c = fesil('yaz');
   console.log(c);
     </script>
   </body>
